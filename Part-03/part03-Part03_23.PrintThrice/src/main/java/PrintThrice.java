@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+public class PrintThrice {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Write your program here
+        System.out.println("Give a word: ");
+        String word = scanner.nextLine();
+        printThrice(word);
+
+    }
+
+    public static void printThrice (String word) {
+        System.out.println();
+        for (int i = 0; i < 3; i++) {
+            System.out.print(word);
+        }
+    }
+}
